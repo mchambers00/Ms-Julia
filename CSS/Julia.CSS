@@ -21,15 +21,19 @@ ul{
 }
 
 li{
-    float: right;
+    float: left;
+    width: 20%;
 }
 
 li a{
     display: block;
+    width: 100%;
     color: white;
     text-align: center;
     padding: 14px 16px;
+    border: 3px solid black;
 }
+
 
 li a:hover{
     background-color: red;
