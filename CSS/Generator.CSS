@@ -41,3 +41,17 @@ li a:hover{
 a:visited{
     color: black;
 }
+
+.SScontainer{
+    max-width: 1000;
+    position: relative;
+    margin: auto;
+}
+
+.Slideshow {
+    display: none;
+}
+
+.prev, .next {
+    
+}
