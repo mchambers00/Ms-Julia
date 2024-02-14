@@ -42,3 +42,12 @@ li a:hover{
 a:visited{
     color: black;
 }
+
+h3 {
+    display: block;
+    background: white;
+    border: 3px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 25px;
+}
