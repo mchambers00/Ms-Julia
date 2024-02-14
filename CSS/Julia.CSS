@@ -43,11 +43,22 @@ a:visited{
     color: black;
 }
 
+.GP {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 25%;
+}
+
+
 h3 {
-    display: block;
-    background: white;
-    border: 3px solid black;
+    text-align: center;
+    padding-top: 25px;
     margin-left: 25%;
     margin-right: 25%;
-    padding-top: 25px;
+    background: white;
+    border: 3px solid black;
+    padding-bottom: 25px;
+    font-size: 18px;
 }
