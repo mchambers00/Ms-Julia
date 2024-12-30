@@ -9,7 +9,7 @@ html, body{
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-image: url("/Images/heart3.jpg");
+    background-image: url("../Images/heart3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
