@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../CSS/Vday.css">
     <title>My Love :D</title>
+    <script src="../JS/Vday.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -17,10 +18,13 @@
             <li><a href="Timeline.html">Timeline</a></li>
             <li><a href="Vday.html">Valentine's Day</a></li>
         </ul>
-
-    </div class = "button-cont">
-        <button type="btn yes" > Yes </button> 
-        <button type="btn no" > No </button>
     </div>    
+
+    <div class = "button-cont">
+        <button class= "yes" onclick="alert('Yay I love you! <3')"> Yes </button> 
+        <button class= "no" onmouseover="moveButton()"> No </button>
+    </div>    
+
+    <img id="response-img" src="" alt="Response Image" style="display: none;">
 </body>
 </html>

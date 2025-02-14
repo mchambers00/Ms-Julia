@@ -12,6 +12,8 @@ html, body{
     background-image: url("../Images/heart3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
 }
 
 ul{
@@ -43,14 +45,6 @@ a:visited{
     color: black;
 }
 
-.GP {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 100px;
-    padding-top: 25%;
-}
-
 
 h3 {
     text-align: center;
@@ -64,19 +58,21 @@ h3 {
 }
 
 .button-cont {
-    text-align: center;
-    padding-top: 25px;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.button-cont button {
+    padding: 125px 125px;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
-.btn {
-    font-size: 20px;
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-}
 .yes {
     background-color: red;
     color: white;
@@ -86,5 +82,12 @@ h3 {
 .no {
     background-color: white;
     color: red;
-    position: absolute;
+    position: relative;
+}
+
+#response-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
