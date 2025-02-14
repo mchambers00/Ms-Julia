@@ -24,10 +24,10 @@ function showImage(response) {
     let img = document.getElementById("response-img");
 
     if (response === "yes") {
-        img.src = "../Images/sad.jpg"; 
+        img.src = "../Images/good.jpg"; 
     } 
     else {
-        img.src = "../Images/good.jpg";
+        img.src = "../Images/sad.jpg";
     }
 
     img.style.display = "block"; 
