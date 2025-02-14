@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("../Images/heart3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+    width: 20%;
+}
+
+li a{
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border: 3px solid black;
+}
+
+
+li a:hover{
+    background-color: red;
+}
+
+a:visited{
+    color: black;
+}
+
+.GP {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 25%;
+}
+
+
+h3 {
+    text-align: center;
+    padding-top: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: white;
+    border: 3px solid black;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+.button-cont {
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.yes {
+    background-color: red;
+    color: white;
+    
+}
+
+.no {
+    background-color: white;
+    color: red;
+    position: absolute;
+}
