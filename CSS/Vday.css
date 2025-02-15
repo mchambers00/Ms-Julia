@@ -16,6 +16,10 @@ html, body{
     align-items: center;
 }
 
+body {
+    overflow-y: scroll;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
